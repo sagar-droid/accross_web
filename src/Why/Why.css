@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@200&display=swap');
+
+.why-container {
+  display: flex;
+  flex-direction: row;
+  max-width: 1440px;
+  width: 100%;
+  background-color: #2E3134;
+  height: 582px;
+}
+
+.why-container-left{
+  padding-left: 150px;
+}
+.why-container-left li{
+  list-style: none;
+  color: #FFF;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-bottom: 32px;
+  
+}
+.why-details-lists{
+  display: flex;
+}
+.why-container-left h2{
+  color: #FFF;
+font-family: Montserrat;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding-bottom: 32px;
+}
+
+.cardImage2 {
+  width: 380.893px;
+  height: 213.348px;
+  flex-shrink: 0;
+  margin-top: 100px;
+
+  border-radius: 16.875px;
+  background: linear-gradient(135deg, rgba(16, 193, 172, 0.60) 0%, rgba(34, 66, 61, 0.60) 100%);
+}
+
+.cardImage1 {
+  width: 380.893px;
+  height: 213.348px;
+  flex-shrink: 0;
+  margin-left: 150px;
+  position: relative;
+  top: -120px;
+
+  border-radius: 16.875px;
+  border: 1.205px solid rgba(253, 253, 253, 0.20);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.80) 5.69%, rgba(255, 255, 255, 0.20) 92.76%);
+  backdrop-filter: blur(21.69643211364746px);
+}
+
+.mastercardlogo {
+  margin-left: 20rem;
+  margin-top: 4px;
+  flex-shrink: 0;
+  
+}
+.label {
+  border: 0px none;
+  height: 29px;
+  width: 174px;
+}
+
+.label .text-wrapper {
+  color: #ffffff;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-size: 24.1px;
+  font-weight: 400;
+  position: fixed;
+  letter-spacing: 0;
+  line-height: normal;
+  top:150px;
+  left: 50px;
+}
+.small-box{
+  margin-top: -40px;
+  margin-left: 1rem;
+  background: conic-gradient(
+    from 180deg at 50% 50%,
+    rgba(255, 255, 255, 0.3) 117.6deg,
+    rgba(255, 255, 255, 0.6) 360deg
+  );
+  border-radius: 4.82px;
+  height: 39px;
+
+  left: 0;
+  opacity: 0.85;
+  top: 0;
+  width: 60px;
+}
+@media (max-width:1025px){
+  .cardImage2{
+    height: 30%;
+    width: 60%;
+    margin-left: 40px;
+  }
+  .cardImage1{
+    height: 30%;
+    width: 60%;
+    margin-right: 20px;
+  }
+  .label .text-wrapper {
+    font-size: 20.1px;
+    font-weight: 300;
+    position: fixed;
+    top:140px;
+    left: 40px;
+  }
+  .mastercardlogo {
+    margin-left: 12rem;
+    margin-top: 6px;
+    flex-shrink: 0;
+    
+  }
+}
+@media(max-width:769px){
+  .why-container{
+    flex-direction: column;
+    max-height: 1000px;
+    height: 100%;
+    margin-top: 0;
+  }
+  .why-container-left{
+    position: relative;
+    top: -120px;
+    left: 48px;
+    width: 80%;
+  }
+.why-container-right{
+  margin-top: -100px;
+}
+    .cardImage2 {
+      width: 380.893px;
+      height: 213.348px;
+      flex-shrink: 0;
+      margin-left: 150px;
+    
+      border-radius: 16.875px;
+    }
+    .cardImage1 {
+       width: 380.893px;
+       height: 213.348px;
+       flex-shrink: 0;
+       margin-left: 250px;
+       position: relative;
+       
+     
+       border-radius: 16.875px;
+     }
+     .mastercardlogo{
+      margin-left: 19rem;
+     }
+}
+@media(max-width:647px){
+  .cardImage2 {
+    width:50%;
+    height: 155.348px;
+    flex-shrink: 0;
+    margin-top: 100px;
+    margin-left: 100px;
+  
+    border-radius: 16.875px;
+  }
+  .cardImage1 {
+     width: 50%;
+     height: 155.348px;
+     flex-shrink: 0;
+     margin-left: 200px;
+     position: relative;
+     top: -100px;
+   
+     border-radius: 16.875px;
+   }
+   .mastercardlogo {
+    margin-left: 13rem;
+    margin-top: 6px;
+    flex-shrink: 0;
+    
+  }
+  .label .text-wrapper {
+    font-size: 19.1px;
+    font-weight: 300;
+    position: fixed;
+    top:120px;
+    left: 40px;
+  }
+}
+@media(max-width:460px){
+  .why-container-left{
+    position: relative;
+    left: -80px;
+    width: 100%;
+  } 
+  .why-container-left h2{
+    font-size: 22px;
+  }
+  .why-container-left li{
+    font-size: 14px;
+  }
+  .cardImage2 {
+    width:65%;
+    height: 155.348px;
+    flex-shrink: 0;
+    margin-top: 100px;
+    margin-left: 40px;
+  
+    border-radius: 16.875px;
+  }
+  .cardImage1 {
+     width: 65%;
+     height: 155.348px;
+     flex-shrink: 0;
+     margin-left: 115px;
+     position: relative;
+     top: -100px;
+   
+     border-radius: 16.875px;
+   }
+   .mastercardlogo {
+    margin-left: 13rem;
+    margin-top: 6px;
+    flex-shrink: 0;
+    
+  }
+  .label .text-wrapper {
+    font-size: 19.1px;
+    font-weight: 300;
+    position: fixed;
+    top:120px;
+    left: 40px;
+  }
+}
+@media(max-width:426px){
+  .why-container-left{
+    position: relative;
+    left: -80px;
+    width: 100%;
+  } 
+  .why-container-left h2{
+    font-size: 22px;
+  }
+  .why-container-left li{
+    font-size: 14px;
+  }
+  .cardImage2 {
+    width:65%;
+    height: 155.348px;
+    flex-shrink: 0;
+    margin-top: 100px;
+    margin-left: 40px;
+  
+    border-radius: 16.875px;
+  }
+  .cardImage1 {
+     width: 65%;
+     height: 155.348px;
+     flex-shrink: 0;
+     margin-left: 115px;
+     position: relative;
+     top: -100px;
+   
+     border-radius: 16.875px;
+   }
+   .mastercardlogo {
+    margin-left: 13rem;
+    margin-top: 6px;
+    flex-shrink: 0;
+    
+  }
+  .label .text-wrapper {
+    font-size: 19.1px;
+    font-weight: 300;
+    position: fixed;
+    top:120px;
+    left: 40px;
+  }
+}
+@media(max-width:376px){
+  .mastercardlogo {
+    margin-left: 11rem;
+    margin-top: 6px;
+    flex-shrink: 0;
+    
+  }
+  .label .text-wrapper {
+    font-size: 16.1px;
+    font-weight: 300;
+    position: fixed;
+    top:120px;
+    left: 40px;
+  }
+  .cardImage1{
+    left: -10px;
+  }
+  .cardImage2{
+    margin-left: 28px;
+  }
+  .why-container-left{
+    margin-top: 0;
+    padding-top: 0;
+  }
+}
+@media(max-width:345px){
+  .why-container{
+    max-height: 945px;
+  }
+  .mastercardlogo {
+    margin-left: 7rem;
+    margin-top: 6px;
+    flex-shrink: 0;
+    
+  }
+  .label .text-wrapper {
+    font-size: 14.1px;
+    font-weight: 300;
+    position: fixed;
+    top:95px;
+    left: 30px;
+  }
+  .cardImage1{
+    left: -10px;
+    width: 60%;
+    height: 120.348px;
+    flex-shrink: 0;
+    position: relative;
+    top: -70px;
+  }
+  .cardImage2{
+    margin-left: 28px;
+    width:60%;
+    height: 120.348px;
+    flex-shrink: 0;
+    margin-top:0px;
+    margin-left: 40px;
+  }
+}
+@media(max-width:321px){
+  .why-container{
+    max-height: 945px;
+  }
+  .mastercardlogo {
+    margin-left: 8rem;
+    margin-top: 6px;
+    flex-shrink: 0;
+    
+  }
+  .label .text-wrapper {
+    font-size: 14.1px;
+    font-weight: 300;
+    position: fixed;
+    top:95px;
+    left: 30px;
+  }
+  .cardImage1{
+    left: -10px;
+    width: 60%;
+    height: 120.348px;
+    flex-shrink: 0;
+    position: relative;
+    top: -70px;
+  }
+  .cardImage2{
+    margin-left: 28px;
+    width:60%;
+    height: 120.348px;
+    flex-shrink: 0;
+    margin-top:0px;
+    margin-left: 40px;
+  }
+}

@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@200&display=swap');
+ .frame-container{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  background: #252729;
+  max-height: 500px;
+}
+.main-frame{
+  max-width: 581px;
+  position: relative;
+  left: 420px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.40);
+}
+.frame p{
+ padding-bottom: 16px;
+ text-align: left;
+ padding-top: 32px;
+  margin: 0;
+  color: #FFF;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  
+}
+.frame-details {
+  cursor: pointer;
+  padding-top: 36px;
+}
+
+.frame-details:hover {
+  color: #10C1AC;
+}
+
+.icon {
+  float: right;
+}
+
+.frame-content{
+  color: #FFF;
+  font-family: Montserrat;
+font-size: 14px;
+text-align: left;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+overflow: hidden;
+transition: all 0.5s ease-in-out; 
+}
+
+.frame-details{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.go-to-faq{
+  color: #10C1AC;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-bottom: 252px;
+text-align: center;
+}
+@media(max-width:1024px){
+  .main-frame{
+    left: 20%;
+  }
+}
+@media(max-width:769px){
+  .main-frame{
+    left: 13%;
+  }
+
+}
+@media(max-width:665px){
+  .main-frame{
+    width: 80%;
+  }
+}
+
+@media(max-width:426px){
+  .frame{
+    width: 60%;
+    position: relative;
+    left: 15%;
+    margin-top: 20px;
+  }
+  .main-frame{
+    width: 80%;
+  }
+}
+@media(max-width:376px){
+  .frame{
+    width: 50%;
+    left: 10%;
+    margin-right: 0;
+  }
+  .frame-details{
+    width: 150%;
+  }
+}

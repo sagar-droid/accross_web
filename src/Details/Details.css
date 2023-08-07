@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@200&display=swap');
+
+.details-container{
+  max-width: 1440px;
+  max-height: 754px;
+  display: flex;
+  flex-direction: row;
+  background: #252729;
+
+}
+.details-left{
+  padding-left: 150px;
+}
+.details-left h2{
+  color: #FFF;
+font-family: Montserrat;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 60px;
+width: 100%;
+flex-shrink: 0;
+
+}
+.details li{
+  color: #FFF;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+background-color: #252729;
+font-weight: 400;
+line-height: normal;
+list-style: none;
+}
+.apply-button{
+  display: inline-flex;
+padding: 10px 20px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 14px 0px;
+background: #10C1AC;
+margin-top: 48px;
+}
+.details-lists{
+  display: flex;
+}
+.details-right{
+  position: relative;
+  right: 150px;
+  margin-top: -70px;
+  padding-bottom: 15px;
+}
+
+@media (max-width: 1024px) {
+.details-container{
+  display: flex;
+  flex-direction: row;
+
+}
+.details-right .details-image{
+  width: 130%;
+  margin-top:100px ;
+  position: relative;
+  top: -70px;
+  right: -30px;
+}
+
+}
+@media(max-width:845px){
+  .apply-button{
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width:769px){
+  .details-container{
+    display: flex;
+    flex-direction: column;
+    max-height: 1040px;
+    height: 100%;
+  
+  }
+  .details-right .details-image{
+    width: 80%;
+    position: relative;
+    top: 30px;
+    right: -200px;
+    margin: 0;
+
+  }
+}
+@media(max-width:426px){
+  .details-container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  
+  }
+  .details-left{
+    padding: 0;
+  }
+  .details-left h2{
+    text-align: left;
+    margin-left: 40px;
+    margin-right: 40px;
+    align-self: center;
+    width: 80%;
+    font-size: 30px;
+  }
+  .details-left .details{
+    margin-top: 32px;
+  padding-left: 40px;
+  margin-right: 46px;
+  }
+  .details li{
+    padding-bottom: 18px;
+  }
+  .apply-button{
+    margin: 0;
+  }
+  .details-right .details-image{
+    position: relative;
+    top: 50px;
+    right: -170px;
+    margin-bottom: 50px;
+  }
+}

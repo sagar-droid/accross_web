@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@200&display=swap');
+.mission-container{
+    height:600px;
+    display: flex;
+    flex-direction: row;   
+    background: #252729;
+}
+.mission-container-right{
+   margin-left: 69px;
+    padding-right: 134px;
+}
+.mission-container-right h2{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.mission-container-right p{
+    color: #CBCBCB;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+}
+@media(max-width:1025px){
+    .mission-container-left{
+    position: relative;
+
+    }
+    .mission-container-left img{
+        width: 350%;
+    }
+    .mission-container-right{
+        padding-left: 290px;
+    }
+}
+@media(max-width:845px){
+   .mission-container-left{
+    width: 100%;
+   }
+}
+@media(max-width:769px){
+    .mission-container{
+        flex-direction: column-reverse;
+        align-items: center;
+        max-height: 1100px;
+        height: 100%;
+    }
+    .mission-container-left img{
+        width: 99%;
+        /* margin-left: 10px; */
+        padding-bottom: 125px;
+    }
+    .mission-container-right{
+        position: relative;
+        width: 100%;
+        top: 10px ;
+        left: -130px;
+        padding-right: 0;
+        padding-bottom: 125px;
+    }
+}
+@media(max-width:665px){
+    .mission-container-left{
+        width: 90%;
+    }
+}
+@media(max-width:426px){
+
+    .mission-container-right{
+    margin-top: 60px;
+    left: -20px;
+        width: 80%;
+        top: 10px ;
+        padding-left: 0;
+        padding-bottom: 125px;
+    }
+    .mission-container-right h2{
+        font-size: 22px;
+    }
+    .mission-container-right p{
+        font-size: 16px;
+    }
+    .mission-container-left img{
+        width: 90%;
+        position: relative;
+        left: 25px;
+    }
+}
+@media(max-width:376px){
+    .mission-container-left img{
+        width: 90%;
+        position: relative;
+        left: 20px;
+    }
+}
+@media(max-width:321px){
+    .mission-container-left img{
+        width: 90%;
+        position: relative;
+        left: 16px;
+    }
+}
